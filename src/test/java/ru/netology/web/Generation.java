@@ -12,8 +12,6 @@ import java.util.Locale;
 
 import static io.restassured.RestAssured.given;
 
-@Data
-@NoArgsConstructor
 public class Generation {
     private static Faker faker = new Faker(new Locale("en"));
 
